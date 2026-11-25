@@ -1,0 +1,10 @@
+# Streamlit 웹 앱 (1.45 이상 권장, 구버전은 자동 폴백)
+streamlit>=1.45.0
+
+# 이미지 처리 (진단·보정 엔진)
+pillow>=10.0.0
+pillow-heif>=0.16.0
+numpy>=1.24.0
+
+# 참고: 구글 Gemini 는 표준 라이브러리(urllib)로 REST API 를 직접 호출하므로
+#       google-generativeai 패키지를 설치할 필요가 없습니다.
